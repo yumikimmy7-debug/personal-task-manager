@@ -8,12 +8,20 @@
             box-sizing: border-box;
         }
 
-        body {
+      body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 40px 20px;
     color: #4d3b5c;
-    background-color: purple;
+    background-color: #f5efff;
+
+    background-image:
+        radial-gradient(circle at 10% 20%, rgba(190, 160, 230, 0.18) 0 35px, transparent 36px),
+        radial-gradient(circle at 90% 15%, rgba(190, 160, 230, 0.18) 0 30px, transparent 31px),
+        radial-gradient(circle at 15% 85%, rgba(190, 160, 230, 0.16) 0 40px, transparent 41px),
+        radial-gradient(circle at 85% 80%, rgba(190, 160, 230, 0.16) 0 35px, transparent 36px);
+
+    background-attachment: fixed;
 }
 
         .flower {
